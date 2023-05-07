@@ -1,4 +1,4 @@
-KEY_NAME="terminal_key_rotem"
+KEY_NAME="{your_key_name}"
 KEY_PEM="$KEY_NAME.pem"
 
 echo "create key pair $KEY_PEM to connect to instances and save locally"
