@@ -1,5 +1,6 @@
-conda create -n cloud_ex1 python=3.9
-conda activate cloud_ex1
-conda install -c conda-forge awscli
-conda install -c conda-forge jq
+brew install jq
+
+curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
+sudo installer -pkg AWSCLIV2.pkg -target /
+
 aws configure
